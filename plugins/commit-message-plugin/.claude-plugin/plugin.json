@@ -1,0 +1,5 @@
+{
+  "name": "commit-message-plugin",
+  "description": "Gera commit messages no formato Conventional Commits",
+  "version": "1.0.0"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "skills-teste",
+  "owner": {
+    "name": "Luis Albuquerque"
+  },
+  "metadata": {
+    "description": "Skills de exemplo demonstrando melhores praticas para criacao de plugins Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "code-review-plugin",
+      "source": "./plugins/code-review-plugin",
+      "description": "Review de codigo para qualidade, seguranca e performance"
+    },
+    {
+      "name": "commit-message-plugin",
+      "source": "./plugins/commit-message-plugin",
+      "description": "Gera commit messages no formato Conventional Commits"
+    },
+    {
+      "name": "refactor-plugin",
+      "source": "./plugins/refactor-plugin",
+      "description": "Refatora codigo preservando comportamento"
+    }
+  ]
+}
